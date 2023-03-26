@@ -1,0 +1,26 @@
+<AnimSheet>
+  
+  <Rectangles>	
+		<Rect FRAMEID = "0" left="0" right="39" top="0" bottom="56"/>
+		<Rect FRAMEID = "1" left="0" right="39" top="56" bottom="112"/>
+		<Rect FRAMEID = "2" left="0" right="39" top="112" bottom="168"/>
+		<Rect FRAMEID = "3" left="0" right="39" top="168" bottom="224"/>
+	</Rectangles>
+
+  <Animation name="Backward">
+    <Frame frame="0"/>
+  </Animation>
+
+  <Animation name="Forward">
+    <Frame frame="1"/>
+  </Animation>
+
+  <Animation name="Backward2">
+    <Frame frame="0"/>
+  </Animation>
+
+  <Animation name="Forward2">
+    <Frame frame="1"/>
+  </Animation>
+  
+</AnimSheet>

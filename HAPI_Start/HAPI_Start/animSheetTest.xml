@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<AnimSheet>
+	<Rectangles>
+		<Rect FRAMEID="0" left="0" right="91" top="0" bottom="343" />
+		<Rect FRAMEID="1" left="91" right="182" top="0" bottom="343" />
+		<Rect FRAMEID="2" left="182" right="273" top="0" bottom="343" />
+		<Rect FRAMEID="3" left="273" right="364" top="0" bottom="343" />
+		<Rect FRAMEID="4" left="364" right="455" top="0" bottom="343" />
+		<Rect FRAMEID="5" left="0" right="91" top="343" bottom="686" />
+		<Rect FRAMEID="6" left="91" right="182" top="343" bottom="686" />
+		<Rect FRAMEID="7" left="182" right="273" top="343" bottom="686" />
+		<Rect FRAMEID="8" left="273" right="364" top="343" bottom="686" />
+		<Rect FRAMEID="9" left="364" right="455" top="343" bottom="686" />
+		<Rect FRAMEID="10" left="0" right="91" top="686" bottom="1029" />
+		<Rect FRAMEID="11" left="91" right="182" top="686" bottom="1029" />
+		<Rect FRAMEID="12" left="182" right="273" top="686" bottom="1029" />
+		<Rect FRAMEID="13" left="273" right="364" top="686" bottom="1029" />
+		<Rect FRAMEID="14" left="364" right="455" top="686" bottom="1029" />
+		<Rect FRAMEID="15" left="0" right="91" top="1029" bottom="1372" />
+		<Rect FRAMEID="16" left="91" right="182" top="1029" bottom="1372" />
+		<Rect FRAMEID="17" left="182" right="273" top="1029" bottom="1372" />
+		<Rect FRAMEID="18" left="273" right="364" top="1029" bottom="1372" />
+		<Rect FRAMEID="19" left="364" right="455" top="1029" bottom="1372" />
+	</Rectangles>
+	<Animation name="animationName">
+		<Frame frame="0" />
+		<Frame frame="1" />
+		<Frame frame="2" />
+		<Frame frame="3" />
+		<Frame frame="4" />
+		<Frame frame="5" />
+		<Frame frame="6" />
+		<Frame frame="7" />
+		<Frame frame="8" />
+		<Frame frame="9" />
+		<Frame frame="10" />
+		<Frame frame="11" />
+		<Frame frame="12" />
+		<Frame frame="13" />
+		<Frame frame="14" />
+		<Frame frame="15" />
+		<Frame frame="16" />
+		<Frame frame="17" />
+		<Frame frame="18" />
+		<Frame frame="19" />
+	</Animation>
+</AnimSheet>

@@ -1,0 +1,61 @@
+<AnimSheet>
+  <Rectangles>
+    <RectData FRAMEID = "0" left="0" right="121" top="0" bottom="83"/>
+    <RectData FRAMEID = "1" left="121" right="242" top="0" bottom="83"/>
+    <RectData FRAMEID = "2" left="242" right="363" top="0" bottom="83"/>
+
+    <RectData FRAMEID = "3" left="0" right="121" top="83" bottom="166"/>
+    <RectData FRAMEID = "4" left="121" right="242" top="83" bottom="166"/>
+    <RectData FRAMEID = "5" left="242" right="363" top="83" bottom="166"/>
+
+    <RectData FRAMEID = "6" left="0" right="121" top="166" bottom="249"/>
+    <RectData FRAMEID = "7" left="121" right="242" top="166" bottom="249"/>
+    <RectData FRAMEID = "8" left="242" right="363" top="166" bottom="249"/>
+
+    <RectData FRAMEID = "9" left="0" right="121" top="249" bottom="332"/>
+    <RectData FRAMEID = "10" left="121" right="242" top="249" bottom="332"/>
+    <RectData FRAMEID = "11" left="242" right="363" top="249" bottom="332"/>
+
+    <RectData FRAMEID = "12" left="0" right="121" top="332" bottom="415"/>
+    <RectData FRAMEID = "13" left="121" right="242" top="332" bottom="415"/>
+    <RectData FRAMEID = "14" left="242" right="363" top="332" bottom="415"/>
+  </Rectangles>
+  
+	<Animation name="Neutral">	
+		<Frame frame="0"/>
+		<Frame frame="1"/>
+		<Frame frame="2"/>
+		<Frame frame="1"/>
+	</Animation>
+
+  <Animation name="Forward">
+    <Frame frame="3"/>
+    <Frame frame="4"/>
+    <Frame frame="5"/>
+    <Frame frame="4"/>
+  </Animation>
+
+  <Animation name="Backward">
+    <Frame frame="6"/>
+    <Frame frame="7"/>
+    <Frame frame="8"/>
+    <Frame frame="7"/>
+  </Animation>
+
+  <Animation name="Left">
+    <Frame frame="9"/>
+    <Frame frame="10"/>
+    <Frame frame="11"/>
+    <Frame frame="10"/>
+  </Animation>
+
+  <Animation name="Right">
+    <Frame frame="12"/>
+    <Frame frame="13"/>
+    <Frame frame="14"/>
+    <Frame frame="13"/>
+  </Animation>
+  
+</AnimSheet>
+
+
