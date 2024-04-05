@@ -1,0 +1,2053 @@
+<Root>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+	<Level_Wave name="A singular missile" retreatTime="5">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="500" spawnY="-400" velX="0" velY="400" accelX="0" accelY="-40"/>
+    </Label>
+
+
+
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+        <Label name="w1" timeOfOccurance="2">
+          <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+          <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+          <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+          <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+          <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+        </Label>
+
+        <Label name="w2" timeOfOccurance="3">
+          <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+          <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+          <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+          <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+          <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+        </Label>
+      </Level_Wave>
+
+	<Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w3" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w4" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w5" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w3" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w4" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w5" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="VERITCALS" retreatTime="14">
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+			<h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+			<h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="4.5">
+			<h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+			<h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+			<h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="LE BASICS" retreatTime="7.5">
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="3.5">
+			<h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+		</Label>
+	</Level_Wave>
+
+	<Level_Wave name="LE BASICS 2" retreatTime="7.5">
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+			<h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="3">
+			<h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+			<h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+		</Label>
+	</Level_Wave>
+
+	<Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="1">
+			<h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w3" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w4" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w5" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w3" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w4" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w5" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w3" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w4" timeOfOccurance="2.3">
+			<h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w5" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w3" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w4" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+		<Label name="w5" timeOfOccurance="0.3">
+			<h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="VERITCALS" retreatTime="14">
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+			<h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+			<h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="4.5">
+			<h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+			<h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+			<h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="VERITCALS" retreatTime="14">
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+			<h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+			<h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="4.5">
+			<h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+			<h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+			<h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="VERITCALS" retreatTime="14">
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+			<h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+			<h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+		</Label>
+
+		<Label name="w2" timeOfOccurance="4.5">
+			<h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+			<h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+			<h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+		</Label>
+
+	</Level_Wave>
+
+	<Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+	
+	</Level_Wave>
+
+	<Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+		<Label name="w1" timeOfOccurance="2">
+			<h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+		<Label name="w1" timeOfOccurance="0.8">
+			<h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+			<h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+		</Label>
+
+
+	</Level_Wave>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="A singular missile" retreatTime="5">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="500" spawnY="-400" velX="0" velY="400" accelX="0" accelY="-40"/>
+    </Label>
+
+
+
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+
+  </Level_Wave>
+
+  <Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="A singular missile" retreatTime="5">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="500" spawnY="-400" velX="0" velY="400" accelX="0" accelY="-40"/>
+    </Label>
+
+
+
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+
+  </Level_Wave>
+
+  <Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="A singular missile" retreatTime="5">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="500" spawnY="-400" velX="0" velY="400" accelX="0" accelY="-40"/>
+    </Label>
+
+
+
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3.5">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="LE BASICS 2" retreatTime="7.5">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="0" spawnX="100" spawnY="-50" velX="130" velY="300" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="170" spawnY="-65" velX="130" velY="315" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="240" spawnY="-80" velX="130" velY="330" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="310" spawnY="-95" velX="130" velY="345" accelX="-90" accelY="-200"/>
+      <h enemyType="0" spawnX="380" spawnY="-110" velX="130" velY="360" accelX="-90" accelY="-200"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="3">
+      <h enemyType="0" spawnX="600" spawnY="-50" velX="-130" velY="300" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="670" spawnY="-65" velX="-130" velY="315" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="740" spawnY="-80" velX="-130" velY="330" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="810" spawnY="-95" velX="-130" velY="345" accelX="90" accelY="-200"/>
+      <h enemyType="0" spawnX="880" spawnY="-110" velX="-130" velY="360" accelX="90" accelY="-200"/>
+    </Label>
+  </Level_Wave>
+
+  <Level_Wave name="MISSILE BARRAGE" retreatTime="23">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="1">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="KAMIKAZE WAVE" retreatTime="20">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="3" spawnX="500" spawnY="150" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="600" spawnY="250" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="200" spawnY="450" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="2.3">
+      <h enemyType="3" spawnX="900" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="470" spawnY="600" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="800" spawnY="125" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w3" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="350" spawnY="200" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w4" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="400" spawnY="700" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+    <Label name="w5" timeOfOccurance="0.3">
+      <h enemyType="3" spawnX="100" spawnY="650" velX="0" velY="0" accelX="0" accelY="0"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="VERITCALS" retreatTime="14">
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="1" spawnX="150" spawnY="-100" velX="270" velY="415" accelX="-100" accelY="-300"/>
+      <h enemyType="1" spawnX="100" spawnY="-82" velX="260" velY="400" accelX="-100" accelY="-280"/>
+      <h enemyType="1" spawnX="200" spawnY="-100" velX="260" velY="400" accelX="-100" accelY="-280"/>
+    </Label>
+
+    <Label name="w2" timeOfOccurance="4.5">
+      <h enemyType="1" spawnX="820" spawnY="-100" velX="-270" velY="415" accelX="100" accelY="-300"/>
+      <h enemyType="1" spawnX="770" spawnY="-82" velX="-260" velY="400" accelX="100" accelY="-280"/>
+      <h enemyType="1" spawnX="870" spawnY="-100" velX="-260" velY="400" accelX="100" accelY="-280"/>
+    </Label>
+
+  </Level_Wave>
+
+  <Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+
+  </Level_Wave>
+
+  <Level_Wave name="GIGA MISSILE BARRAGE" retreatTime="12">
+
+    <Label name="w1" timeOfOccurance="2">
+      <h enemyType="4" spawnX="50" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="950" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="150" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="850" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="250" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="750" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="350" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="650" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+    <Label name="w1" timeOfOccurance="0.8">
+      <h enemyType="4" spawnX="450" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+      <h enemyType="4" spawnX="550" spawnY="-400" velX="0" velY="1000" accelX="0" accelY="-40"/>
+    </Label>
+
+
+  </Level_Wave>
+
+</Root>
+
+

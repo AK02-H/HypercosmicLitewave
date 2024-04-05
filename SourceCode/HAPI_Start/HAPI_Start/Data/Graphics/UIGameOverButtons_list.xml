@@ -1,0 +1,21 @@
+<AnimSheet>
+  
+  <Rectangles>	
+		<Rect FRAMEID = "0" left="0" right="225" top="0" bottom="61"/>
+		<Rect FRAMEID = "1" left="0" right="225" top="61" bottom="122"/>
+		<Rect FRAMEID = "2" left="0" right="225" top="122" bottom="183"/>
+	</Rectangles>
+
+  <Animation name="Retry">
+    <Frame frame="0"/>
+  </Animation>
+
+  <Animation name="Menu">
+    <Frame frame="1"/>
+  </Animation>
+
+  <Animation name="Quit">
+    <Frame frame="2"/>
+  </Animation>
+  
+</AnimSheet>

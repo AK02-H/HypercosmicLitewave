@@ -1,0 +1,31 @@
+<AnimSheet>
+  
+  <Rectangles>	
+		<Rect FRAMEID = "0" left="0" right="77" top="0" bottom="25"/>
+		<Rect FRAMEID = "1" left="0" right="77" top="25" bottom="50"/>
+		<Rect FRAMEID = "2" left="0" right="77" top="50" bottom="75"/>
+		<Rect FRAMEID = "3" left="0" right="77" top="75" bottom="100"/>
+		<Rect FRAMEID = "4" left="0" right="77" top="100" bottom="125"/>
+	</Rectangles>
+
+  <Animation name="25p">
+    <Frame frame="0"/>
+  </Animation>
+
+  <Animation name="50p">
+    <Frame frame="1"/>
+  </Animation>
+
+  <Animation name="100p">
+    <Frame frame="2"/>
+  </Animation>
+
+  <Animation name="150p">
+    <Frame frame="3"/>
+  </Animation>
+
+  <Animation name="200p">
+    <Frame frame="4"/>
+  </Animation>
+  
+</AnimSheet>

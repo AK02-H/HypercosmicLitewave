@@ -1,0 +1,21 @@
+<AnimSheet>
+  
+  <Rectangles>	
+		<Rect FRAMEID = "0" left="0" right="155" top="0" bottom="35"/>
+		<Rect FRAMEID = "1" left="0" right="155" top="35" bottom="70"/>
+		<Rect FRAMEID = "2" left="0" right="155" top="70" bottom="105"/>
+	</Rectangles>
+
+  <Animation name="Idle_Easy">
+    <Frame frame="0"/>
+  </Animation>
+
+  <Animation name="Idle_Normal">
+    <Frame frame="1"/>
+  </Animation>
+
+  <Animation name="Idle_Hard">
+    <Frame frame="2"/>
+  </Animation>
+  
+</AnimSheet>

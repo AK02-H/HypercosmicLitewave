@@ -1,0 +1,73 @@
+<AnimSheet>
+  <Rectangles>
+    <RectData FRAMEID = "0" left="0" right="204" top="0" bottom="156"/>
+    <RectData FRAMEID = "1" left="204" right="408" top="0" bottom="156"/>
+    <RectData FRAMEID = "2"  left="408" right="612" top="0" bottom="156"/>
+    <RectData FRAMEID = "3" left="612" right="816" top="0" bottom="156"/>
+    <RectData FRAMEID = "4" left="816" right="1020" top="0" bottom="156"/>
+    <RectData FRAMEID = "5" left="1020" right="1224" top="0" bottom="156"/>
+    <RectData FRAMEID = "6" left="1224" right="1428" top="0" bottom="156"/>
+    <RectData FRAMEID = "7" left="1428" right="1632" top="0" bottom="156"/>
+    <RectData FRAMEID = "8" left="1632" right="1836" top="0" bottom="156"/>
+    <RectData FRAMEID = "9" left="1836" right="2040" top="0" bottom="156"/>
+    <RectData FRAMEID = "10" left="2040" right="2244" top="0" bottom="156"/>
+    <RectData FRAMEID = "11" left="2244" right="2448" top="0" bottom="156"/>
+    <RectData FRAMEID = "12" left="2448" right="2652" top="0" bottom="156"/>
+
+    <RectData FRAMEID = "13" left="0" right="274" top="156" bottom="430"/>
+    <RectData FRAMEID = "14" left="274" right="548" top="156" bottom="430"/>
+    <RectData FRAMEID = "15" left="548" right="822" top="156" bottom="430"/>
+    <RectData FRAMEID = "16" left="822" right="1096" top="156" bottom="430"/>
+    <RectData FRAMEID = "17" left="1096" right="1370" top="156" bottom="430"/>
+    <RectData FRAMEID = "18" left="1370" right="1644" top="156" bottom="430"/>
+    <RectData FRAMEID = "19" left="1644" right="1918" top="156" bottom="430"/>
+    <RectData FRAMEID = "20" left="1918" right="2192" top="156" bottom="430"/>
+    <RectData FRAMEID = "21" left="2192" right="2466" top="156" bottom="430"/>
+    <RectData FRAMEID = "22" left="2466" right="2740" top="156" bottom="430"/>
+    <RectData FRAMEID = "23" left="2740" right="3014" top="156" bottom="430"/>
+    <RectData FRAMEID = "24" left="3014" right="3288" top="156" bottom="430"/>
+    <RectData FRAMEID = "25" left="3288" right="3562" top="156" bottom="430"/>
+    <RectData FRAMEID = "26" left="3562" right="3836" top="156" bottom="430"/>
+    <RectData FRAMEID = "27" left="3836" right="4110" top="156" bottom="430"/>
+    <RectData FRAMEID = "28" left="4110" right="4384" top="156" bottom="430"/>
+    <RectData FRAMEID = "29" left="4384" right="4658" top="156" bottom="430"/>
+    <RectData FRAMEID = "30" left="4658" right="4932" top="156" bottom="430"/>
+  </Rectangles>
+  
+	<Animation name="Slash">	
+		<Frame frame="1"/>
+		<Frame frame="2"/>
+		<Frame frame="5"/>
+		<Frame frame="6"/>
+		<Frame frame="7"/>
+		<Frame frame="8"/>
+		<Frame frame="9"/>
+		<Frame frame="10"/>
+		<Frame frame="12"/>
+	</Animation>
+  
+  <Animation name="Slash_Hyper">	
+		<Frame frame="13"/>
+		<Frame frame="14"/>
+		<Frame frame="15"/>
+		<Frame frame="16"/>
+		<Frame frame="17"/>
+		<Frame frame="18"/>
+		<Frame frame="19"/>
+		<Frame frame="20"/>
+		<Frame frame="21"/>
+		<Frame frame="22"/>
+		<Frame frame="23"/>
+		<Frame frame="24"/>
+		<Frame frame="25"/>
+		<Frame frame="26"/>
+		<Frame frame="27"/>
+		<Frame frame="28"/>
+		<Frame frame="29"/>
+		<Frame frame="30"/>
+		
+	</Animation>
+  
+</AnimSheet>
+
+

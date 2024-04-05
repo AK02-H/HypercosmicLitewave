@@ -1,0 +1,1040 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<link href="HAPI_Reference.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="wb_Text1" style="position:absolute;left:361px;top:206px;width:248px;height:36px;z-index:0;">
+<h1>HAPI Reference</h1></div>
+<div id="wb_Image1" style="position:absolute;left:361px;top:0px;width:242px;height:242px;z-index:1;">
+<img src="images/HAPI_Logo220_2.png" id="Image1" alt=""></div>
+<div id="wb_Text2" style="position:absolute;left:42px;top:242px;width:426px;height:27px;z-index:2;">
+<h3>Basic Functions</h3></div>
+<table style="position:absolute;left:38px;top:280px;width:886px;height:165px;z-index:3;" id="Table1">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">HAPI</span></p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Provides access to all the HAPI functions</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">This is a macro that provides access to all the publicly available interfaces of the HAPI library. It maps to GetHapi() which in turn returns a reference to the HAPI instance</span></p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">IHapi&amp;&nbsp; a reference to the HAPI interfaces</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:39px;top:455px;width:886px;height:515px;z-index:4;" id="Table2">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">Initialise</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool Initialise(int &amp;width, int &amp;height, const std::string &amp;title=std::string(), unsigned int flags = eDefaults)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">To initialise the HAPI library and create a window.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int &amp;width, &amp;height (IN, OUT) requested width and height of the screen area. If the requested size is not possible these values are altered to the next legal size. Hence they are passed in as references.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;title (IN) optional text to go in the window title bar</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">unsigned int flags (IN) optional flags to control HAPI initialisation. These can be <span style="font-size:19px;line-height:21px;color:#000000;"><br /></span>| (OR) together, current ones are:</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eDefaults - default is to run in a window</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eFullScreen - start up in full screen mode (note for full screen width and height must be supported full screen dimensions)</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eBorderless - opens the window with no bar at the top. Remember to have an exit key.</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eTopLeft - moves the window to 0,0</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">eVsync - enables vertical sync (limit to monitor refresh rate)</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:986px;width:886px;height:234px;z-index:5;" id="Table3">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">Update</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool Update();</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">To update HAPI. HAPI will draw the screen, collect key presses etc. Must be called regularly as part of the</span><span style="font-size:19px;line-height:21px;"> game loop.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">None</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs or the user has closed </span><span style="font-size:19px;line-height:21px;">HAPI </span><span style="font-size:19px;line-height:21px;">via Close</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:41px;top:1220px;width:886px;height:248px;z-index:6;" id="Table5">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">Close</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool Close()</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Allows HAPI to be closed other than via the user closing the window. Causes HAPI to destroy the subsystems and return false in the next Update</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">None</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:1513px;width:886px;height:292px;z-index:7;" id="Table6">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetScreenPointer</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">BYTE* GetScreenPointer()</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Provides access to the screen data. Returns a pointer to the memory mapped screen of size: screen width * screen height * 4. There are 4 bytes per pixel in the order RGBX. There is no need to delete the pointer after use. The screen pointer value returned will never change so you are free to store this value if you wish. Note: the value is aligned to 128 bits.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">None</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">BYTE* pointer to the screen memory or nullptr on an error.</span></p></td>
+</tr>
+</table>
+<div id="wb_Text3" style="position:absolute;left:42px;top:1486px;width:426px;height:27px;z-index:8;">
+<h3>Graphics Functions</h3></div>
+<table style="position:absolute;left:41px;top:1826px;width:886px;height:466px;z-index:9;" id="Table4">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">LoadTexture, LoadTextureAligned</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool LoadTexture(const std::string &amp;filename, BYTE** data, int &amp;width,&nbsp; int &amp;height)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Loads a texture file into memory and returns a pointer to that memory. Supported most image formats. Data is in the format ARGB.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">Caller must delete the returned data before the program ends (using the array form of delete)</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">An equivalent call LoadTextureAligned was added to align texture data to a 128 bit boundary. If you use this call you need to delete the memory using _aligned_free(pnter)</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename (IN) the filename of the texture to load.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">BYTE **data (OUT) Caller should pass in the address of a BYTE pointer. If the call is successful this pointer will be set to point to the newly allocated texture data.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">int &amp;width,&amp;height (OUT) Will be set to the width and height of the loaded texture.</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:2306px;width:886px;height:726px;z-index:10;" id="Table7">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">RenderText</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool RenderText( int x,&nbsp; int y, const HAPI_TColour &amp;colour, const std::string&amp; text, int textSize=12,unsigned int styleFlags= eRegular)</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool RenderText( int x,&nbsp; int y, const HAPI_TColour &amp;fillColour, const HAPI_TColour &amp;outlineColour, float outlineThickness, const std::string&amp; text, int textSize=12,unsigned int styleFlags= eRegular)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Displays text on the screen using the current font (also see ChangeFont below)</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int x,y (IN) the screen position of the text (0,0 is top left)</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TColour &amp;colour (IN) the required colour to draw the text.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;text (IN) the text to draw.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int textSize (IN) optional size of the text</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">unsigned int styleFlags (IN) optional flags to apply certain styles (HAPI_TextStyle). These can be Or’d together. Currently supports:</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eRegular Regular characters, no style</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eBold Bold characters</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eItalic Italic characters</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eUnderlined Underlined characters</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eStrikeThrough Strike through characters</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">The second version of this function additionally allows the following to be specified:</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TColour &amp;outlineColour (IN) the colour to draw the text outline</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">float outlineThickness (IN) the thickness of the text outline</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:3055px;width:886px;height:327px;z-index:11;" id="Table8">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">ChangeFont</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool ChangeFont(const std::string &amp;fontName)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows the current font to be changed. This is slow the first time it is called for a set font name but subsequent changes to that font are instant hence you should call this function prior to your game loop for each of the fonts you will use. Note this takes a font name and uses the registry to load the font, hence it must be installed in Windows. If you want to load a font from a file use ChangeFontFromFile instead.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;fontName (IN) the name of the font e.g. Arial, Courier New, Times New Roman etc.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:3400px;width:886px;height:259px;z-index:12;" id="Table9">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">ChangeFontFromFile</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool ChangeFontFromFile(const std::string&amp; fontFilename)</p>
+<p style="font-size:13px;line-height:16px;">&nbsp;</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">As ChangeFont but loads a font from a file hence it does not need to be installed on the user’s machine.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;fontFilename (IN) the filename of the font.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:3685px;width:886px;height:301px;z-index:13;" id="Table10">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetTextSize</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool GetTextSize(unsigned int x, unsigned int y, const std::string&amp; text, unsigned int textSize,</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">unsigned int styleFlags, int &amp;width, int&nbsp; &amp;height, float outlineThickness = 0)</p>
+<p style="font-size:13px;line-height:16px;">&nbsp;</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows the size of text to be determined prior to rendering</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">Parameters are the same as RenderText apart from:</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int width, int height (OUT) on success hold the dimensions of the text</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs.</span></p></td>
+</tr>
+</table>
+<div id="wb_Text4" style="position:absolute;left:42px;top:4012px;width:426px;height:27px;z-index:14;">
+<h3>Controllers</h3></div>
+<table style="position:absolute;left:38px;top:4049px;width:886px;height:268px;z-index:15;" id="Table11">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetKeyboardData</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const HAPI_TKeyboardData&amp; GetKeyboardData() const</span></p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Retrieves the current state of every key on the keyboard. To determine which entry matches with which key you can use the defines in the provided header: HAPI_InputCodes.h</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">None</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const HAPI_TKeyboardData&amp; a reference to a structure that, if the call is successful, will be filled with details of the current keyboard state.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:39px;top:4335px;width:886px;height:236px;z-index:16;" id="Table12">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetMouseData</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const HAPI_TMouseData&amp; GetMouseData() const</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Retrieves the current state of the mouse.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">None</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const HAPI_TMouseData&amp; a reference to a structure that, if the call is successful, will be filled with details of the current mouse state</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:41px;top:4590px;width:886px;height:222px;z-index:17;" id="Table13">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetMaxControllers</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">int GetMaxControllers() const</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Retrieves the maximum number of controllers supported by HAPI. Note that this does not mean they are actually installed.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">None</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">int the maximum number of controllers supported.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:41px;top:4839px;width:886px;height:378px;z-index:18;" id="Table14">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetControllerData</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const HAPI_TControllerData&amp; GetControllerData(int controller) const</span></p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Retrieves the current state of a specified controller. Note that you must check the isAttached member of the returned structure to determine if the controller is actually attached.</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">int controller (IN) the index of the controller to query. Use GetMaxControllers to determine the maximum number that may be installed. Note that the index is 0 based and that if one controller is installed, whatever port it is in, index 0 will always refer to it.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Note:&nbsp; controllers like the Xbox 360 controller are 'hot plugable' so could be inserted or removed at any time during game play so always check the isAttached member or the returned value.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const HAPI_TControllerData&amp; reference to a structure that, if the call is successful, will be filled with details of the specified controller state. </span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:5241px;width:886px;height:364px;z-index:19;" id="Table15">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">SetControllerRumble</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool SetControllerRumble(int controller, WORD leftMotor, WORD rightMotor)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Allows control of the speed of the rumble packs of a controller.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int controller (IN) the index of the controller to query. UseGetMaxControllers to determine the maximum number that may be installed.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">WORD leftMotor (IN) the speed of the left motor. Can range from 0 (off) to 65535 (full speed)</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">WORD rightMotor (IN) the speed of the right motor. Can range from 0 (off) to 65535 (full speed)</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:5628px;width:886px;height:236px;z-index:20;" id="Table16">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetEnteredText</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">char GetEnteredText() const</span></p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Converts the currently pressed key press from a scan code into a localised character (including taking key modifiers into account). Note: you can control the key repeat on or off using EnableKeyRepeat</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">char the character</span></p></td>
+</tr>
+</table>
+<div id="wb_Text5" style="position:absolute;left:46px;top:5902px;width:426px;height:27px;z-index:21;">
+<h3>Sound</h3></div>
+<table style="position:absolute;left:42px;top:5940px;width:886px;height:272px;z-index:22;" id="Table17">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">LoadSound</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool LoadSound(const std::string &amp;filename)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Loads a sound file. Note that this method is the best method for sound effects. If you want to play background music or any large sound file you are better to use PlayStreamedMedia.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">const std::string &amp;filename (IN) the filename of the sound to load.</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:6234px;width:886px;height:518px;z-index:23;" id="Table18">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">PlaySound</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool PlaySound(const std::string &amp;filename)</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool PlaySound(const std::string &amp;filename, const HAPI_TSoundOptions &amp;options)</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool PlaySound(const std::string &amp;filename, const HAPI_TSoundOptions &amp;options, int &amp;instanceId)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Plays a sound. Most sound formats are supported.&nbsp; If the sound was not already loaded it will load it first. This may take time so you are best to call LoadSound for each sound prior to entering the game loop.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">There are 3 overloads allowing more or less options to be specified.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">	</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename (IN) the filename of the sound to play</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TSoundOptions &amp;options (IN) Allows various playback options to be specified including pan, volume, pitch, loop. See HAPI_TSoundOptions for details.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">int &amp;instanceId (OUT) If you want to be able to control the sound options during playback (via ChangePlayingSoundOptions or StopSound)&nbsp; this will provide the sound instance (this is needed because multiple sounds of the same filename may be playing at once).</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:6772px;width:886px;height:315px;z-index:24;" id="Table19">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;">ChangePlayingSoundOptions</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">	</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool ChangePlayingSoundOptions( int &amp;soundInstanceId, const HAPI_TSoundOptions &amp;options)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows a playing sound options, like volume, pan etc. to be changed during playback</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int soundInstanceId (IN) the unique instance of the sound as returned from PlaySound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TSoundOptions &amp;options (IN) .Allows various playback options to be changed including pan, volume, pitch, loop. See HAPI_TSoundOptions for details.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:7113px;width:886px;height:408px;z-index:25;" id="Table20">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetSoundStatus</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_MediaStatus GetSoundStatus(int soundInstanceId, float &amp;playbackPosition)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Retrieve info on a sound instance e.g. to see if it is paused, finished etc.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int soundInstanceId (IN) the unique instance of the sound to query</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">float &amp;playbackPosition (OUT) current play position (in seconds)</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_MediaStatus an enum describing the sound status, one of:</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eError An error occurred</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eInactive Not being played. Finished.</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eStarting About to start</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">eStopped Stopped and sitting at start / first frame</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">ePaused Paused</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">ePlaying Playing</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:41px;top:7546px;width:886px;height:278px;z-index:26;" id="Table21">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">StopSound</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">StopSound(int soundInstanceId, bool togglePause = false)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Stops a sound early or pauses it</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int soundInstanceId (IN) the unique instance of the sound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool togglePause (IN) optional. If set to true the sound is paused or unpaused rather than stopped.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:41px;top:7844px;width:886px;height:343px;z-index:27;" id="Table22">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetSoundRawData</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool GetSoundRawData(const std::string&amp; filename, std::vector&lt;SWORD&gt;&amp; rawData, HAPI_TSoundFormat &amp;soundInfo)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows access to the sample data of a sound.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename (IN) the filename of the sound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">std::vector&lt;SWORD&gt;&amp; rawData (OUT) a vector of signed 16 bit values representing the samples of the sound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">HAPI_TSoundFormat &amp;soundInfo (OUT) information about the format of the sound data</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:41px;top:8204px;width:886px;height:378px;z-index:28;" id="Table23">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;font-weight:bold;color:#000000;">SetSoundRawData</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool SetSoundRawData(const std::string&amp; filename, const std::vector&lt;SWORD&gt;&amp; rawData, const HAPI_TSoundFormat &amp;soundInfo)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows a sound to be changed. Note it must be loaded and if it is playing it will be stopped first.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename (IN) the filename of the sound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">std::vector&lt;SWORD&gt;&amp; rawData (IN) a vector of signed 16 bit values representing the new samples of the sound. The length must match the original sound length otherwise use CreateSound instead,</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">HAPI_TSoundFormat &amp;soundInfo (IN) information about the format of the sound data</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:8600px;width:886px;height:366px;z-index:29;" id="Table24">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">CreateSound</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool CreateSound(const std::string&amp; name, const std::vector&lt;SWORD&gt;&amp; rawData, const HAPI_TSoundFormat &amp;soundInfo)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows a sound to be created from scratch. Note this does not save it to disk, to do that call SaveSound afterwards.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;name (IN) the name of the new sound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">std::vector&lt;SWORD&gt;&amp; rawData (IN) a vector of signed 16 bit values representing the samples of the sound.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">HAPI_TSoundFormat &amp;soundInfo (IN) information about the format of the sound data</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:42px;top:8978px;width:886px;height:288px;z-index:30;" id="Table25">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">SaveSound</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool SaveSound(const std::string&amp; name, const std::string&amp; newFilename)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows a sound to be saved. Format is determined from the file extension. Most sound formats are supported.</p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;name (IN) the name of the sound as used when calling CreateSound</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;newFilename (IN) the filename to save the sound as.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:9295px;width:886px;height:466px;z-index:31;" id="Table26">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">PlayStreamedMedia</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">			</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool PlayStreamedMedia(const std::string &amp;filename)</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool PlayStreamedMedia(const std::string &amp;filename, const HAPI_TStreamedMediaOptions&amp; options, int &amp;instanceId)</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool PlayStreamedMedia(int instanceId)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Plays video or audio files by streaming them from disk. This is the preferred method for large media files. 3 overloads exists offering different options. Note the last one allows restarts media that has already been played (hence the requirement for the instance ID) and is the most efficient way of re-playing media.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename&nbsp; (IN) the filename of the video or audio file.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TStreamedMediaOptions&amp; options (IN) Allows a number of playback options to be specified including volume, loop, screen position / size (for video). See HAPI_TStreamedMediaOptions for details.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int instanceId unique identifier of playing media</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:9786px;width:886px;height:330px;z-index:32;" id="Table27">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">StopStreamedMedia, PauseStreamedMedia</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">			</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool StopStreamedMedia(int instanceId)</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool PauseStreamedMedia(int instanceId, bool pause = true)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Stops or pauses the streaming media started by PlayStreamedMedia.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int instanceId (IN) the unique instance of the media as returned from PlayStreamedMedia (overload 2)</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool pause (IN) optional. If set to true the sound is paused rather than stopped.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:10146px;width:886px;height:232px;z-index:33;" id="Table28">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetStreamedMediaInfo</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">			</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TStreamedMediaInfo&amp; GetStreamedMediaInfo(int instanceId) const</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Returns info about the media e.g. like current position</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int instanceId (IN) the unique instance of the media as returned from PlayStreamedMedia (overload 2)</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">const HAPI_TStreamedMediaInfo&amp; a structure containing information about the media. </p></td>
+</tr>
+</table>
+<div id="wb_Text6" style="position:absolute;left:50px;top:10421px;width:426px;height:27px;z-index:34;">
+<h3>Utility</h3></div>
+<table style="position:absolute;left:46px;top:10459px;width:886px;height:306px;z-index:35;" id="Table29">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetLastError</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">HAPI_ErrorCodes GetLastError(HAPI_System *system=NULL)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">If an error occurs this call will retrieve the error code of the last HAPI error. Note that HAPI also produces a debug log called HAPI_Log.html in your project folder and outputs all messages to the output pane in Visual Studio.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">Advanced: if your application is crashing prior to writing the log you can call WriteLogSoFar.</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">HAPI_System *system (OUT) the system the error occurred in (optional)</span></p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">HAPI_ErrorCodes the error code.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:10783px;width:886px;height:304px;z-index:36;" id="Table30">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">SetShowFPS</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool SetShowFPS(bool set, int x,&nbsp; int y=0,, HAPI_TColour&amp; col=HAPI_TColour::WHITE)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Toggles the display of frames per second.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">bool set (IN) true to show the FPS, false to hide it</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int x,y (IN) if specified sets the position of the FPS text</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">HAPI_TColour&amp; col (IN) if specified changes the FPS text colour</span></p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:11101px;width:886px;height:236px;z-index:37;" id="Table31">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">SetShowCursor</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool SetShowCursor(bool set)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Toggles the display of the cursor (mouse arrow).</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">bool set (IN) true to show the cursor, false to hide it</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</span></p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:11354px;width:886px;height:212px;z-index:38;" id="Table32">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetTime</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">DWORD GetTime()</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Returns the time in milliseconds since HAPI was initialised.</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">DWORD&nbsp; time since HAPI initialised.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:46px;top:11584px;width:886px;height:420px;z-index:39;" id="Table33">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">UserMessage</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool UserMessage(const std::string &amp;text,const std::string&amp; title,HAPI_ButtonType buttonType=eButtonTypeOk,,HAPI_UserResponse *userResponse=0)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows a message to be displayed to the user and a response read.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;text (IN) text to be displayed in the centre of the message box.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;title (IN) text to be displayed in the title area of the box.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">HAPI_ButtonType buttonType (IN) determines what buttons will be displayed in the box (optional). See types below.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">HAPI_UserResponse *userResponse (OUT) this pointer is set to the return button pressed by the user (optional). See types below.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:12026px;width:886px;height:401px;z-index:40;" id="Table34">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">SaveImage</span></p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool SaveImage(BYTE *rawImageData, int width, int height, const std::string &amp;filename)</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows a buffer to be saved to an image file e.g. can be used to take screenshots. File format is derived from the extension which can be either .bmp, .png, .tga or .jpg</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">BYTE *rawImage (IN) image buffer with 4 bytes per pixel. Size must be width * height * 4 bytes</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">unsigned int width (IN) image width.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">unsigned int height (IN) image height.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename (IN)&nbsp; filename to save under. If no path provided it will save in the current working directory.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:12447px;width:886px;height:487px;z-index:41;" id="Table35">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;font-weight:bold;color:#000000;">FileDialog, FileDialogMultipleSelect</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">	</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool FileDialog(const std::vector&lt;HAPI_TFileDialogFilters&gt;&amp; filters, bool saveAsDialog,</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">std::string &amp;filename, HAPI_UserResponse &amp;response)</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;">bool FileDialogMultipleSelect(const std::vector&lt;HAPI_TFileDialogFilters&gt;&amp; filters</span><span style="font-size:19px;line-height:21px;">,</span><span style="font-size:19px;line-height:21px;">std::vector&lt;std::string&gt; &amp;filenames, HAPI_UserResponse &amp;response,	const std::string&amp; startDirectory = std::string())</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Displays a file open or save dialog</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::vector&lt;HAPI_TFileDialogFilters&gt;&amp; filters (IN) vector containing one of more file filters e.g. *.bmp, *.*. See HAPI_TFileDialogFilters for more info.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool saveAsDialog (IN) true for a save as dialog , false for an open dialog</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;filename (IN)&nbsp; filename to save under. If no path provided it will save in the current working directory.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">HAPI_UserResponse &amp;userResponse (OUT) the return button pressed by the user.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:12963px;width:886px;height:341px;z-index:42;" id="Table36">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">SetIcon</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">	</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool SetIcon(BYTE *rawImageData, int width, int height) const</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Allows the icon shown in the window and task bar to be changed from the default HAPI logo</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">BYTE* rawImageData (IN) an array of pixels in RGBA format describing the new image. The size must be width * hieght * 4 in bytes.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int width (IN) width of the image</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int height (IN) height of the image</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:13321px;width:886px;height:214px;z-index:43;" id="Table37">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetFPS</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">	</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int GetFPS() const</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Returns the current frame rate averaged over a second</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">int current FPS</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:13557px;width:886px;height:379px;z-index:44;" id="Table38">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">UserTextEntry</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">bool UserTextEntry(const std::string &amp;question, std::string &amp;result, std::string initialText = std::string(), int dialogWidth = 0)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Puts up a text entry dialog to obtain input from the user</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;question (IN) text to be displayed in the dialog box.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;result (OUT) will be filled with the user response</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">const std::string &amp;initialText (IN) optional. Text to insert in user entry box.</p>
+<p style="font-size:19px;line-height:21px;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">int dialogWidth (IN) optonal. Allows the width of the dialog to be set. The wider it is the large the text entry box.</p></td>
+</tr>
+<tr>
+<td class="cell6"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell7"><p style="font-size:19px;line-height:21px;color:#000000;">bool false if an error occurs. Use GetLastError to determine the error or look in the output pane or log.</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:13955px;width:886px;height:222px;z-index:45;" id="Table39">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetExecutableDirectory</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">std::string GetExecutableDirectory()</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Retrieves the full directory path of the running executable which can be useful when finding data etc.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">std::string the full path as a string</p></td>
+</tr>
+</table>
+<div id="wb_Text7" style="position:absolute;left:55px;top:15461px;width:877px;height:213px;z-index:46;">
+<span style="color:#000000;font-family:Arial;font-size:17px;"><strong>C++ Type Aliases</strong><br><br>HAPI uses some type aliases in order to ensure bit sizes, they are:<br><br>BYTE : this is an alias of an unsigned char. An unsigned char is 8 bits.<br><br>WORD : a word. A word is 16 bits. An alias for unsigned short.<br><br>SWORD: a signed WORD. 16 bits. An alias for signed short.<br><br>DWORD : a double word. 32 bits. An alias for unsigned long.</span></div>
+<table style="position:absolute;left:50px;top:14202px;width:886px;height:245px;z-index:47;" id="Table40">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetWorkingDirectory</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">std::string GetWorkingDirectory()</p></td>
+</tr>
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;">Retrieve the working directory - useful as a root for then finding data files</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">This is normally where the visual studio project file is, if running under viz,</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">otherwise it is where the executable directory is</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">std::string the full path as a string</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:14462px;width:886px;height:235px;z-index:48;" id="Table41">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">WriteLogSoFar</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">void WriteLogSoFar() const</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Saves log to disk early. It always gets saved on exit but there are cases where you want to dump it sooner.</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:14715px;width:886px;height:235px;z-index:49;" id="Table42">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">GetEnteredText</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">char GetEnteredText() const</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Returns entered character as text (takes into account keyboard localisation and modifier keys etc).</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">Char - the character</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:14976px;width:886px;height:215px;z-index:50;" id="Table43">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">EnableKeyRepeat</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">void EnableKeyRepeat(bool enable)</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Useful if you are getting entered text from the user using GetEnteredText</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">bool enable - true to enable</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+</table>
+<table style="position:absolute;left:50px;top:15218px;width:886px;height:215px;z-index:51;" id="Table44">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Name</span></p></td>
+<td class="cell1"><p style="font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">LimitFrameRate</span></p>
+<p style="font-size:19px;line-height:21px;color:#000000;">		</p>
+<p style="font-size:19px;line-height:21px;color:#000000;">LimitFrameRate(int framesPerSecondLimit) const</p></td>
+</tr>
+<tr>
+<td class="cell2"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Purpose</span></p></td>
+<td class="cell3"><p style="font-size:19px;line-height:21px;color:#000000;">Limit the frame rate</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Parameters</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">int framesPerSecondLimit - FPS to limit to</p></td>
+</tr>
+<tr>
+<td class="cell4"><p style="font-size:13px;line-height:16px;color:#000000;"><span style="font-size:19px;line-height:21px;font-weight:bold;">Return</span></p></td>
+<td class="cell5"><p style="font-size:19px;line-height:21px;color:#000000;">None</p></td>
+</tr>
+</table>
+</body>
+</html>

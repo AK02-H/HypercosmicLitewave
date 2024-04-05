@@ -1,0 +1,28 @@
+Amin Khan
+Milestone 4 v1.0 2/1/23
+--------------------------------
+
+New Functionality
+-----------------
+
+-Created the world model system with entities
+-Added collision
+
+Code Additions
+--------------
+
+-An abstract entity class and a player + bullet class that derive from it
+-A world class that stores all entities, updating them every frame
+-A collision component that entities can have to check collisions against each other
+
+Tests
+-----
+Currently only a rectangle collider is being used, but it is very efficient whent there are lots of entities on screen
+When players are only checking collisions against bullets, the game can run efficiently at around 60 fps
+However when all entities are checking collisions against all other entities, the game slows to around 10-12 frames in debug mode
+
+Notes
+-----
+I want to add a circle collider in the future but this might be complex to check against rectangles, and could cause more slowdown
+When a sprite is rotated a collider might have to rotate too, but adding rotation calculations to the rect colliders could
+be expensive

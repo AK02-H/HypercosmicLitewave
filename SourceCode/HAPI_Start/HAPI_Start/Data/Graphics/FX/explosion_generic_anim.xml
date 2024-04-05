@@ -1,0 +1,46 @@
+<AnimSheet>
+  
+  <Rectangles>	
+		<Rect FRAMEID = "0" left="0" right="64" top="0" bottom="64"/>
+		<Rect FRAMEID = "1" left="64" right="128" top="0" bottom="64"/>
+		<Rect FRAMEID = "2" left="128" right="192" top="0" bottom="64"/>
+		<Rect FRAMEID = "3" left="192" right="256" top="0" bottom="64"/>
+
+    <Rect FRAMEID = "4" left="0" right="64" top="64" bottom="128"/>
+    <Rect FRAMEID = "5" left="64" right="128" top="64" bottom="128"/>
+    <Rect FRAMEID = "6" left="128" right="192" top="64" bottom="128"/>
+    <Rect FRAMEID = "7" left="192" right="256" top="64" bottom="128"/>
+
+    <Rect FRAMEID = "8" left="0" right="64" top="128" bottom="192"/>
+    <Rect FRAMEID = "9" left="64" right="128" top="128" bottom="192"/>
+    <Rect FRAMEID = "10" left="128" right="192" top="128" bottom="192"/>
+    <Rect FRAMEID = "11" left="192" right="256" top="128" bottom="192"/>
+
+    <Rect FRAMEID = "12" left="0" right="64" top="192" bottom="256"/>
+    <Rect FRAMEID = "13" left="64" right="128" top="192" bottom="256"/>
+    <Rect FRAMEID = "14" left="128" right="192" top="192" bottom="256"/>
+    <Rect FRAMEID = "15" left="192" right="256" top="192" bottom="256"/>
+		
+		
+	</Rectangles>
+
+  <Animation name="Explode">
+    <Frame frame="0"/>
+    <Frame frame="1"/>
+    <Frame frame="2"/>
+    <Frame frame="3"/>
+    <Frame frame="4"/>
+    <Frame frame="5"/>
+    <Frame frame="6"/>
+    <Frame frame="7"/>
+    <Frame frame="8"/>
+    <Frame frame="9"/>
+    <Frame frame="10"/>
+    <Frame frame="11"/>
+    <Frame frame="12"/>
+    <Frame frame="13"/>
+    <Frame frame="14"/>
+    <Frame frame="15"/>
+  </Animation>
+  
+</AnimSheet>
